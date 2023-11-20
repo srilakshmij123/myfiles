@@ -1,0 +1,24 @@
+<style>
+     li{
+        color: blue;
+    } 
+    table,tr,th,td{
+                    border: 2px solid blue;
+                    border-collapse: collapse;
+    }
+     .row1{
+        color: blue;
+        background-color: palevioletred;
+     }
+     #row2{
+        color: blueviolet;
+       background-color: indianred;
+
+     }
+     #row3,#row4,#row5{
+        color: crimson;
+        background-color: darkturquoise;
+     }
+     
+     
+
