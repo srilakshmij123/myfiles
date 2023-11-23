@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-auto-rows: 80px;
+            width: 500px;
+            column-gap: 10px;
+            row-gap: 10px;
+            padding: 50px;
+            background-color: bisque;
+            border: 3px solid blue;
+         }
+         h1{
+            text-align: center;
+            color: blue;
+            background-color: pink;
+         }
+         .pack{
+            border: 1px solid black;
+            display: grid;
+            align-items: center;
+            justify-content: end;
+            padding-right: 30px;
+            background-color: black;
+            color:white;
+
+          }
+          .item{
+            grid-column-start: 1;
+            grid-column-end: 5;
+          }
+          .zero{
+            grid-column-start: 1;
+            grid-column-end: 3;
+          }
+          div,button{
+            font-family: Arial, Helvetica, sans-serif, sans-serif;
+            font-size: 30px;
+            color: black;
+            
+          }
+          .orange{
+            background-color: orange;
+            border: 2px solid orange;
+          }
+          .light-grey{
+            background-color: lightgray;
+            border: 2px solid lightgray;
+          
+
+          }
+          .dark-grey{
+            background-color: darkgrey;
+            border: 2px solid darkgray;
+           
+          }
+
+    </style>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+  <div class="main">
+    <div class="pack item">12+3-43*/5</div>
+    <button class="p1 dark-grey">AC</button>
+    <button class="p1 dark-grey">+/-</button>
+    <button class="p1 dark-grey">%</button>
+    <button class="p1 orange">/</button>
+    <button class="p1 light-gray">7</button>
+    <button class="p1 light-gray">8</button>
+    <button class="p1 light-gray">9</button>
+    <button class="p1 orange">*</button>
+    <button class="p1 light-gray">4</button>
+    <button class="p1 light-gray">5</button>
+    <button class="p1 light-gray">6</button>
+    <button class="p1 orange">-</button>
+    <button class="p1 light-gray">1</button>
+    <button class="p1 light-gray">2</button>
+    <button class="p1 light-gray">3</button> 
+    <button class="p1 orange">+</button>
+    <button class="p1 zero light-grey">0</button>
+    <button class="p1 light-gray">.</button>
+    <button class="p1 orange">=</button>
+    </div>  
